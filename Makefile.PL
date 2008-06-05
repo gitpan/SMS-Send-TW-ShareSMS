@@ -6,6 +6,7 @@ WriteMakefile(
     VERSION_FROM      => 'lib/SMS/Send/TW/ShareSMS.pm', # finds $VERSION
     PREREQ_PM         => {
             'SMS::Send'			=> 0.03,    	
+	    'LWP::UserAgent'		=> 2.0,
     	}, # e.g., Module::Name => 1.1
     ($] >= 5.006001 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/SMS/Send/TW/ShareSMS.pm', # retrieve abstract from module
